@@ -1,0 +1,107 @@
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Lato:ital,wght@1,300&family=Montserrat:wght@100&family=Rubik+Bubbles&family=Satisfy&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(239, 239, 247);
+}
+footer{
+    background-color: rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100%;
+    line-height: 2.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: smaller;
+}
+@media only screen and (min-width: 992px) {
+    img{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+.container{
+    margin: 10px auto;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: rgb(98, 97, 97);
+}
+p{
+    color: rgb(127, 127, 127);
+    font-style: italic;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+hr{
+    width: 5%;
+    margin: 60px auto;
+    border-style: dotted;
+    border-bottom: none;
+    border-top-width: 6px;
+}
+.follow{
+    text-align: center;
+    margin: 10px auto;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    /* margin-bottom: 20px; */
+}
+h3{
+
+}
+@media only screen and (min-width: 992px) {
+    .abcd{
+        margin: 0 30px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .abcd{
+        margin: 0 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .abcd{
+        margin: 0 3px;
+    }
+}
+.abcd{
+    font-family: 'Montserrat-bold', sans-serif;
+    color: rgb(98, 97, 97);
+    text-decoration: none;
+}
+a{
+    font-family: 'Ubuntu', sans-serif; 
+}
+a:hover{
+    font-weight: 900;
+}
+
+/* contact + about*/
+
+.contact-intro{
+    text-align: center;
+}
